@@ -198,7 +198,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
@@ -207,7 +207,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -373,7 +373,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -700,14 +700,18 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        // increase font size by 1
+        font-size: 1.25rem;
       }
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          // border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
 
           &:hover {
-            border-bottom-style: solid;
+            // border-bottom-style: solid;
+            color: var(--global-theme-color);
             text-decoration: none;
           }
         }
@@ -723,16 +727,16 @@ footer.sticky-bottom {
           cursor: pointer;
 
           &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            color: var(--white-color);
+            border-bottom: 1px dashed var(--white-color);
           }
         }
       }
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          color: var(--global-theme-color);
+          border: 1px solid var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -740,8 +744,9 @@ footer.sticky-bottom {
           margin-left: 0;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-bg-color);
+            background-color: var(--global-theme-color);
+            border: 1px solid var(--global-bg-color);
           }
         }
         a.award.btn {
