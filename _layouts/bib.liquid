@@ -174,7 +174,7 @@
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awareded{% endif -%}
+          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -199,6 +199,9 @@
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
+      {% endif %}
+      {% if entry.thread %}
+          <a href="{{ entry.thread }}" class="btn btn-sm z-depth-0" role="button">Thread</a>
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
