@@ -21,3 +21,15 @@
 "akram":
   - firstname: ["Yassir", "Y", "Y."]
     url: https://as.inf.ethz.ch/people/members/yakram/index.html
+
+"orvieto":
+  - firstname: ["Antonio", "A", "A."]
+    url: http://orvi.altervista.org
+
+"lampinen":
+  - firstname: ["Andrew", "A", "A."]
+    url: https://lampinen.github.io
+
+"de":
+  - firstname: ["Soham", "S", "S."]
+    url: https://sohamde.github.io

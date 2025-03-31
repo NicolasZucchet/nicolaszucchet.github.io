@@ -46,7 +46,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -189,17 +189,17 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
-      layout: post
-    output: true
+      layout: false
+    output: false
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -247,6 +247,15 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/repositories.md
+  - _pages/research.md
+  - _pages/research_projects.md
+  - _pages/research_projects.md
+  - _posts/
+  - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll
@@ -303,7 +312,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: false # [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
@@ -319,8 +328,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zucchet]
+  first_name: [Nicolas]
 
   style: apa
   locale: en
