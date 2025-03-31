@@ -25,7 +25,6 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'logger'
-    gem 'observer'
     gem 'classifier-reborn'  # used for content categorization during the build
 end
 
