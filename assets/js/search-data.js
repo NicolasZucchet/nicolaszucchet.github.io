@@ -43,7 +43,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-7",
+            },},{id: "news-our-work-on-the-emergence-of-sparse-attention-as-be-accepted-to-neurips-as-an-oral",
+          title: 'Our work on the emergence of sparse attention as be accepted to NeurIPS...',
+          description: "",
+          section: "News",},{id: "news-i-have-successfully-defended-my-phd-thesis",
+          title: 'I have successfully defended my PhD thesis!',
+          description: "",
+          section: "News",},{id: "news-i-presented-on-work-on-how-language-models-learn-facts-at-colm-in-montreal",
+          title: 'I presented on work on how language models learn facts at COLM in...',
+          description: "",
+          section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
