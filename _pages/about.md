@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student at ETH Zürich
+subtitle: Postdoctoral researcher at ETH Zürich
 
 profile:
   align: right
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a fourth-year PhD student at ETH Zürich, under the supervision of João Sacramento and Angelika Steger. During my PhD, I have been a student researcher in Google DeepMind in London working with Soham De. I earned my Master's degree in Computer Science from ETH Zürich in 2021, following a Bachelor's degree in Applied Mathematics from École Polytechnique in Palaiseau, France, in 2019.
+I am a postdoctoral researcher at ETH Zurich, where I received my PhD under the supervision of João Sacramento and Angelika Steger in 2025. During my PhD, I was a student researcher at Google DeepMind in London, working with Soham De. I earned my Master's degree in Computer Science from ETH Zürich in 2021, following a Bachelor's degree in Applied Mathematics from École Polytechnique in 2019.
 
-My research interests lie at the intersection of Artificial Intelligence and Neuroscience, focusing on understanding how brains learn. I aim to create algorithms inspired by deep learning that perform well while fitting within the brain's physical limits. For example, I'm interested in developing online learning rules for neural networks that do not require any future information. My theoretical background fuels my curiosity about the fundamental principles underlying learning. This drives my work in deep learning, where I study the optimization properties of state-of-the-art architectures, as well as the kind of computations they can perform.
+My research interests lie at the intersection of artificial intelligence and neuroscience. I use artificial neural networks to gain insights into how our brains learn and why biological systems are more energy and data efficient. A key focus of my work is developing biophysically plausible learning algorithms for (recurrent) neural networks. This research helps us understand the mechanisms underlying learning in the brain and could reduce the energetic cost of AI systems by bringing neural computation closer to its physical substrate. I am also interested in how data shapes learning. Specifically, I investigate how data curricula could accelerate learning in neural networks.
 
-Outside research, I enjoy long-distance cycling to appreciate the beauty of Swiss nature, as well as photography.
+Outside research, I enjoy road cycling and photography.
 
 <br/>
