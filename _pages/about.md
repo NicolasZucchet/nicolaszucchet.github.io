@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral researcher at ETH Zurich, where I received my PhD under the supervision of João Sacramento and Angelika Steger in 2025. During my PhD, I was a student researcher at Google DeepMind in London, working with Soham De. I earned my Master's degree in computer science from ETH Zürich in 2021, following a Bachelor's degree in Applied Mathematics from École Polytechnique in 2019.
+I am a postdoctoral researcher at Stanford University in Scott Linderman's group, supported by a SNSF Postdoc Mobility fellowship. I received my PhD from ETH Zürich in 2025 under the supervision of João Sacramento and Angelika Steger. During my PhD, I was a student researcher at Google DeepMind in London, working with Soham De. I earned my Master's degree in computer science from ETH Zürich in 2021, following a Bachelor's degree in Applied Mathematics from École Polytechnique in 2019.
 
 My research interests lie at the **intersection of artificial intelligence and neuroscience**. I use artificial neural networks to gain insights into **how our brains learn** and why biological systems are more energy and data efficient. A key focus of my work is developing **biophysically plausible learning algorithms** for (recurrent) neural networks. This research helps us understand the mechanisms underlying learning in the brain and could reduce the energetic cost of AI systems by bringing neural computation closer to its physical substrate. I am also interested in **how data shapes learning**, specifically investigating how data curricula could accelerate learning in neural networks.
 
