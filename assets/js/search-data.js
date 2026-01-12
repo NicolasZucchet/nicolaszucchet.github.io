@@ -55,7 +55,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-gave-a-talk-on-the-impact-of-data-on-the-learning-dynamics-of-transformers-at-mpi-tübingen-slides",
           title: 'I gave a talk on the impact of data on the learning dynamics...',
           description: "",
-          section: "News",},{id: "news-we-presented-our-work-on-the-emergence-of-sparse-attention-at-neurips-slides-poster",
+          section: "News",},{id: "news-we-presented-our-work-on-the-emergence-of-sparse-attention-at-neurips-slides-poster-talk",
           title: 'We presented our work on the emergence of sparse attention at NeurIPS (slides,...',
           description: "",
           section: "News",},{id: "projects-project-7",
