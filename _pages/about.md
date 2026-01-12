@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral researcher at ETH Zürich
+subtitle: Postdoctoral researcher at Stanford
 
 profile:
   align: right
