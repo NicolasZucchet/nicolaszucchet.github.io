@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Nicolas
 middle_name:
 last_name: Zucchet
-email: nzucchet@ethz.ch
+email: nzucchet@stanford.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in NeuroAI, ETH Zürich.
+  PostDoc, Stanford University.
 footer_text:
 keywords: AI, NeuroAI, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
